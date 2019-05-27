@@ -1,0 +1,11 @@
+<ul id="todo-list">
+    <li
+            *ngFor="let exercise of exercises"
+            (click)="selectExercise(exercise.id)"
+    >
+        {{exercise.name}}
+    </li>
+
+</ul>
+
+
